@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.card.AddNewNoteController">
+   <children>
+      <Button fx:id="addButton" layoutX="204.0" layoutY="300.0" mnemonicParsing="false" text="Add">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="343.0" layoutY="300.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="113.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title" />
+      <Text layoutX="111.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Note" />
+      <Text layoutX="114.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+      <Text layoutX="204.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add new note">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <TextField fx:id="titleTextField" layoutX="182.0" layoutY="109.0" prefHeight="25.0" prefWidth="236.0" />
+      <TextField fx:id="bookTextField" layoutX="182.0" layoutY="154.0" prefHeight="25.0" prefWidth="236.0" />
+      <Text fx:id="messageText" layoutX="113.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="343.0" />
+      <TextArea fx:id="noteTextArea" layoutX="182.0" layoutY="200.0" prefHeight="93.0" prefWidth="236.0" />
+   </children>
+</AnchorPane>
