@@ -41,7 +41,7 @@ public abstract class TrainingController extends Controller implements Registere
     private Button startButton;
 
     @FXML
-    private BorderPane borderPane;
+    protected BorderPane borderPane;
 
     @FXML
     private Button newTrainButton;
@@ -110,9 +110,7 @@ public abstract class TrainingController extends Controller implements Registere
             loadPaneAfterTraining(ResourceConstants.AFTER_TRAINING_VIEW);
         }
     }
-    private void newTrainButtonPressed() {
-        sceneLoader.loadNewScene(registeredUser, borderPane, ResourceConstants.TRAINING_VIEW, ViewConstants.weightMainMenu, ViewConstants.heightMainMenu);
-    }
+    protected abstract void newTrainButtonPressed();
 
     //Utility methods
     private void blockAllButtons() {

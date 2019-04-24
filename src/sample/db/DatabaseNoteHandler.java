@@ -32,13 +32,15 @@ public class DatabaseNoteHandler extends DatabaseCardHandler<NoteCard>{
 
         String select = "SELECT * FROM " + NoteDatabaseConstant.NOTE_TABLE +
                 " WHERE " + NoteDatabaseConstant.CARD_ID_USER + " = " + id + " AND " +
-                NoteDatabaseConstant.NEXT_TRAINING + " < '" + dateNow +
+                NoteDatabaseConstant.NEXT_TRAINING + " <= '" + dateNow +
                 "' LIMIT " + limitOfRows;
 
         ResultSet resultSet = null;
         try {
             PreparedStatement preparedStatement = getDbConnection().prepareStatement(select);
             resultSet = preparedStatement.executeQuery();
+
+            System.out.println(resultSet.getFetchSize());
         } catch (SQLException e) {
             System.out.println("sdf");
             System.out.println(e);

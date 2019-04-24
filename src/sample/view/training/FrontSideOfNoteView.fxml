@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.training.FrontSideOfNoteController">
+   <children>
+      <Text fx:id="titleTextField" layoutX="225.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="50.0" />
+      <Text fx:id="bookTextField" layoutX="225.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="50.0" />
+   </children>
+</AnchorPane>

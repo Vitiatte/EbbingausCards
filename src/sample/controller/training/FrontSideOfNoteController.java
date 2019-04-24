@@ -16,12 +16,16 @@ public class FrontSideOfNoteController implements TrainingWindow{
     private URL location;
 
     @FXML
-    private Text title;
+    private Text titleTextField;
+
+    @FXML
+    private Text bookTextField;
 
     @FXML
     public void initialize(Card card) {
         NoteCard noteCard = (NoteCard) card;
-        System.out.println(noteCard.getNote());
-        title.setText(noteCard.getNote());
+
+        titleTextField.setText(noteCard.getTitle());
+        bookTextField.setText(noteCard.getBook());
     }
 }

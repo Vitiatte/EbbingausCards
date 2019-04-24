@@ -9,8 +9,8 @@ public class ResourceConstants {
     public static final String FRONT_SIDE_OF_ENGLISH_CARD_VIEW = VIEW_FOLDER + TRAINING_VIEW_FOLDER + "FrontSideOfCardView.fxml";
     public static final String AFTER_TRAINING_VIEW = VIEW_FOLDER + TRAINING_VIEW_FOLDER +"AfterTrainingView.fxml";
     public static final String NOTHING_TO_TRAIN = VIEW_FOLDER + TRAINING_VIEW_FOLDER + "NothingToTrainView.fxml";
-    public static final String FRONT_SIDE_OF_NOTE_VIEW = VIEW_FOLDER + TRAINING_VIEW_FOLDER + "FrontSideOfNote.fxml";
-    public static final String BACK_SIDE_OF_NOTE_VIEW = VIEW_FOLDER + TRAINING_VIEW_FOLDER + "BackSideOfNote.fxml";
+    public static final String FRONT_SIDE_OF_NOTE_VIEW = VIEW_FOLDER + TRAINING_VIEW_FOLDER + "FrontSideOfNoteView.fxml";
+    public static final String BACK_SIDE_OF_NOTE_VIEW = VIEW_FOLDER + TRAINING_VIEW_FOLDER + "BackSideOfNoteView.fxml";
 
     public static final String CARD_VIEW_FOLDER = "card/";
     public static final String ADD_NEW_CARD_VIEW = VIEW_FOLDER + CARD_VIEW_FOLDER + "AddNewCardView.fxml";

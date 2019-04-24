@@ -30,7 +30,7 @@ public class DatabaseEnglishCardHandler extends DatabaseCardHandler<EnglishCard>
 
         String select = "SELECT * FROM " + EnglishCardDatabaseConstant.CARD_TABLE +
                 " WHERE " + EnglishCardDatabaseConstant.CARD_ID_USER + " = " + id + " AND " +
-                EnglishCardDatabaseConstant.NEXT_TRAINING + " < '" + dateNow +
+                EnglishCardDatabaseConstant.NEXT_TRAINING + " <= '" + dateNow +
                 "' LIMIT " + limitOfRows;
 
         ResultSet resultSet = null;

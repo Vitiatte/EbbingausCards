@@ -4,7 +4,6 @@ import sample.db.DatabaseCardHandler;
 import sample.db.DatabaseEnglishCardHandler;
 import sample.db.DatabaseNoteHandler;
 import sample.db.entity.Card;
-import sample.db.entity.EnglishCard;
 import sample.service.enums.CardRememberedSuccessful;
 import sample.service.enums.CardType;
 import sample.service.util.CardIntervalTimeChanger;
